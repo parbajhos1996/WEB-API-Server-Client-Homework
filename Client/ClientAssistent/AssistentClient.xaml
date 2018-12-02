@@ -1,0 +1,29 @@
+﻿<Window x:Class="ClientAssistent.AssistentClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientAssistent"
+        mc:Ignorable="d"
+        Title="Assistent Client" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="320,10,0,0" VerticalAlignment="Top" FontSize="36">Add Patient</TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="300,66,0,0" VerticalAlignment="Top" Width="120">First Name:</TextBlock>
+        <TextBox x:Name="FirstName" HorizontalAlignment="Left" Height="23" Margin="400,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="300,94,0,0" VerticalAlignment="Top" Width="120">Last Name:</TextBlock>
+        <TextBox x:Name="LastName" HorizontalAlignment="Left" Height="23" Margin="400,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="300,120,0,0" VerticalAlignment="Top" Width="120">Address:</TextBlock>
+        <TextBox x:Name="Address" HorizontalAlignment="Left" Height="23" Margin="400,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="300,146,0,0" VerticalAlignment="Top" Width="120">Taj Number:</TextBlock>
+        <TextBox x:Name="TajNumber" HorizontalAlignment="Left" Height="23" Margin="400,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="300,172,0,0" VerticalAlignment="Top" Width="120">Complaint:</TextBlock>
+        <TextBox x:Name="Complaint" HorizontalAlignment="Left" Height="23" Margin="400,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Button Content="Add Patient" HorizontalAlignment="Left" Margin="360,210,0,0" VerticalAlignment="Top" Width="120" Click="AddPatientClick"/>
+    </Grid>
+</Window>
